@@ -24,9 +24,9 @@ export default {
   .header
     display:flex
     line-height:.86rem
-    background :$bgColor
-    color:#fff
-
+    background :$headerColor
+    color:$white
+    
     .header-left
       width:.64rem
       float:left
@@ -39,7 +39,7 @@ export default {
       margin-left:.2rem
       margin-top:.12rem
       border-radius: .1rem
-      background:#fff
+      background:$white
       color: #ccc
       text-indent :.2rem
 

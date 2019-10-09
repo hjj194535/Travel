@@ -21,8 +21,8 @@ export default {
         loop: true
       },
       swiperList: [
-        {id: '001', imgUrl: 'static/imgs/01.jpg'},
-        {id: '002', imgUrl: 'static/imgs/02.jpg'}
+        {id: '001', imgUrl: 'static/imgs/header/01.jpg'},
+        {id: '002', imgUrl: 'static/imgs/header/02.jpg'}
       ]
     }
   }
@@ -40,5 +40,5 @@ export default {
       padding-bottom: 26.66%
       background: #eee
       .swiper-img
-          width: 100%
+         width: 100%
 </style>
