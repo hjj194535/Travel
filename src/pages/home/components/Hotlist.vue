@@ -8,7 +8,7 @@
       </div>
 			<div class="hot-list-content">
 				<ul class="hot-list-ul">
-					<li class="hot-list-item" v-for="item of hotList" :key="item.id">
+					<li class="hot-list-item" v-for="item of this.hotList" :key="item.id">
 						<a href="#/" class="hot-list-link">
 							<div class="hot-list-tag">
 								<img :src="item.imgUrl" :alt="item.desc" class="hot-list-tagimg">
@@ -28,18 +28,8 @@
 <script>
 export default {
 	name: 'HotList',
-	data () {
-		return {
-			hotList: [
-				{id: '001', imgUrl: 'static/imgs/hotRemmend/No_1.jpg',desc: '秦始皇陵博物院（兵马俑）',price: 100},
-				{id: '002', imgUrl: 'static/imgs/hotRemmend/No_2.jpg',desc: '陕西历史博物馆',price: 0.5},
-				{id: '003', imgUrl: 'static/imgs/hotRemmend/No_3.jpg',desc: '长恨歌',price: 288},
-				{id: '004', imgUrl: 'static/imgs/hotRemmend/No_4.jpg',desc: '华清宫',price: 100},
-				{id: '005', imgUrl: 'static/imgs/hotRemmend/No_5.jpg',desc: '大唐芙蓉园',price: 100},
-				{id: '006', imgUrl: 'static/imgs/hotRemmend/No_6.jpg',desc: '西安钟楼',price: 15},
-				{id: '007', imgUrl: 'static/imgs/hotRemmend/No_7.jpg',desc: '大明宫国家遗址公园',price: 82}
-			]
-		}
+	props: {
+		hotList: Array
 	}
 }
 </script>

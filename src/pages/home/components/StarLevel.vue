@@ -1,6 +1,6 @@
 <template>
   <ul class="starlevel">
-		<li class="starlevel-item" v-for="i in num" :key="i">
+		<li class="starlevel-item" v-for="i in nums" :key="i">
 			<img class="starlevel-item-img" src="static/imgs/like/star.png">
 		</li>
 	</ul>
@@ -9,17 +9,20 @@
 <script>
 export default {
 	name: 'StarLevel',
-	props: ['dataScore'],
-	data () {
-		let nums = []
-		let num = Math.ceil(this.dataScore)
-		for(let i = 0; i < num; i++){
-			nums.push(i)
-		}
-		return {
-			num: nums
+	props: {
+		dataScore: Number
+	},
+	computed: {
+		nums () {
+			let temp = []
+			let num = Math.ceil(this.dataScore)
+			for(let i = 0; i < num; i++){
+				temp.push(i)
+			}
+			return temp
 		}
 	}
+
 }
 </script>
 

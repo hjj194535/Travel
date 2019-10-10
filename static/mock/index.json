@@ -1,0 +1,128 @@
+{
+	"errCode": "200",
+	"data": {
+		"city": "西安",
+		"hotList": [
+			{"id": "001", "imgUrl": "static/imgs/hotRemmend/No_1.jpg","desc": "秦始皇陵博物院（兵马俑）", "price": 100},
+			{"id": "002", "imgUrl": "static/imgs/hotRemmend/No_2.jpg","desc": "陕西历史博物馆", "price": 0.5},
+			{"id": "003", "imgUrl": "static/imgs/hotRemmend/No_3.jpg","desc": "长恨歌","price": 288},
+			{"id": "004", "imgUrl": "static/imgs/hotRemmend/No_4.jpg","desc": "华清宫","price": 100},
+			{"id": "005", "imgUrl": "static/imgs/hotRemmend/No_5.jpg","desc": "大唐芙蓉园","price": 100},
+			{"id": "006", "imgUrl": "static/imgs/hotRemmend/No_6.jpg","desc": "西安钟楼","price": 15},
+			{"id": "007", "imgUrl": "static/imgs/hotRemmend/No_7.jpg","desc": "大明宫国家遗址公园","price": 82}
+		],
+		"iconSwiperList": [
+			{"id": "001", "imgUrl": "static/imgs/category/attractions.png", "desc": "景点门票"},
+			{"id": "002", "imgUrl": "static/imgs/category/bingmayong.png", "desc": "兵马俑"},
+			{"id": "003", "imgUrl": "static/imgs/category/bowuguan.png", "desc": "博物馆"},
+			{"id": "004", "imgUrl": "static/imgs/category/garden.png", "desc": "动植物园"},
+			{"id": "005", "imgUrl": "static/imgs/category/hotshow.png", "desc": "热门景点"},
+			{"id": "006", "imgUrl": "static/imgs/category/huaqinggong.png", "desc": "华清宫"},
+			{"id": "007", "imgUrl": "static/imgs/category/huashan.png", "desc": "华山"},
+			{"id": "008", "imgUrl": "static/imgs/category/oneday.png", "desc": "一日游"},
+			{"id": "009", "imgUrl": "static/imgs/category/waterfull.png", "desc": "壶口瀑布"}
+		],
+		"likeList": [
+			{
+				"id": "1001", 
+				"name": "兵马俑", 
+				"commentScore": 4.9, 
+				"commentNum": 163062,
+				"address": "临潼区",
+				"price": 100,
+				"imgUrl": "static/imgs/hotRemmend/No_1.jpg"
+			},
+			{
+				"id": "1002", 
+				"name": "博物馆", 
+				"commentScore": 4.9, 
+				"commentNum": 163032,
+				"address": "碑林区",
+				"price": 0.5,
+				"imgUrl": "static/imgs/hotRemmend/No_2.jpg"
+			},
+			{
+				"id": "1003", 
+				"name": "长恨歌", 
+				"commentScore": 4.9, 
+				"commentNum": 163082,
+				"address": "碑林区",
+				"price": 288,
+				"imgUrl": "static/imgs/hotRemmend/No_3.jpg"
+			},
+			{
+				"id": "1004", 
+				"name": "华清池", 
+				"commentScore": 4.9, 
+				"commentNum": 163090,
+				"address": "临潼区",
+				"price": 100,
+				"imgUrl": "static/imgs/hotRemmend/No_4.jpg"
+			},
+			{
+				"id": "1005", 
+				"name": "大唐芙园", 
+				"commentScore": 4.9, 
+				"commentNum": 163062,
+				"address": "碑林区",
+				"price": 100,
+				"imgUrl": "static/imgs/hotRemmend/No_5.jpg"
+			},
+			{
+				"id": "1006", 
+				"name": "西安钟", 
+				"commentScore": 4.9, 
+				"commentNum": 163162,
+				"address": "碑林区",
+				"price": 15,
+				"imgUrl": "static/imgs/hotRemmend/No_6.jpg"
+			},
+			{
+				"id": "1007", 
+				"name": "大明宫国家遗址公园", 
+				"commentScore": 4.9, 
+				"commentNum": 163062,
+				"address": "未央区",
+				"price": 82,
+				"imgUrl": "static/imgs/hotRemmend/No_7.jpg"
+			}
+		],
+		"swiperList": [
+			{"id": "001", "imgUrl": "static/imgs/header/01.jpg"},
+			{"id": "002", "imgUrl": "static/imgs/header/02.jpg"}
+		],
+		"weekendTripList":[
+			{
+				"id": "1001",
+				"name": "西安必打卡",
+				"desc": "寻长安梦，开启穿越的圆梦之旅",
+				"imgUrl": "static/imgs/weekend/zhonglou.jpg"
+			},
+			{
+				"id": "1002",
+				"name": "探寻文化古都",
+				"desc": "一场时空穿越的旅行，探寻历史悠久的文化古都！寻觅历史留下的点点足迹，细细品味古人的伟大",
+				"imgUrl": "static/imgs/weekend/bingmayong.jpg"
+			},
+			{
+				"id": "1003",
+				"name": "西安演出在线",
+				"desc": "寻长安梦，开启穿越的圆梦之旅这里有绚丽奇幻的神秘梦幻舞剧，歌舞揭开盛唐面纱，体验穿越时空的奇妙，感受大唐之盛世",
+				"imgUrl": "static/imgs/weekend/yanchu.jpg"
+			},
+			{
+				"id": "1004",
+				"name": "西安亲子必玩",
+				"desc": "西安亲子必去景点，和家人一起度过欢乐亲子时光，带你嗨翻假期！",
+				"imgUrl": "static/imgs/weekend/lehuacheng.jpg"
+			},
+			{
+				"id": "1005",
+				"name": "醉美丝路行",
+				"desc": "情系西北，中国梦丝路行",
+				"imgUrl": "static/imgs/weekend/sichouzhilu.jpg"
+			}
+		]
+	}
+
+}

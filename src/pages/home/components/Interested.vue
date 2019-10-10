@@ -5,7 +5,7 @@
 					<span>猜你喜欢</span>
 				</div>
 				<ul class="like-list">
-					<li class="like-item" v-for="item in likeList" :key="item.id">
+					<li class="like-item" v-for="item in this.likeList" :key="item.id">
 						<a href="#/" class="fulllink">
 							<div class="like-imgcon">
 								<img class="like-img" :src="item.imgUrl" :alt="item.name">
@@ -36,78 +36,11 @@
 import StarLevel from './StarLevel'
 export default {
 	name: 'Interested',
+	props:{
+		likeList: Array
+	},
 	components: {
 		StarLevel
-	},
-	data () {
-		return {
-			likeList: [
-				{
-					id: '1001', 
-					name: '兵马俑', 
-					commentScore: 4.9, 
-					commentNum: 163062,
-					address: '临潼区',
-					price: 100,
-					imgUrl: 'static/imgs/hotRemmend/No_1.jpg'
-				},
-				{
-					id: '1002', 
-					name: '博物馆', 
-					commentScore: 4.9, 
-					commentNum: 163032,
-					address: '碑林区',
-					price: 0.5,
-					imgUrl: 'static/imgs/hotRemmend/No_2.jpg'
-				},
-				{
-					id: '1003', 
-					name: '长恨歌', 
-					commentScore: 4.9, 
-					commentNum: 163082,
-					address: '碑林区',
-					price: 288,
-					imgUrl: 'static/imgs/hotRemmend/No_3.jpg'
-				},
-				{
-					id: '1004', 
-					name: '华清池', 
-					commentScore: 4.9, 
-					commentNum: 163090,
-					address: '临潼区',
-					price: 100,
-					imgUrl: 'static/imgs/hotRemmend/No_4.jpg'
-				},
-				{
-					id: '1005', 
-					name: '大唐芙蓉园', 
-					commentScore: 4.9, 
-					commentNum: 163062,
-					address: '碑林区',
-					price: 100,
-					imgUrl: 'static/imgs/hotRemmend/No_5.jpg'
-				},
-				{
-					id: '1006', 
-					name: '西安钟楼', 
-					commentScore: 4.9, 
-					commentNum: 163162,
-					address: '碑林区',
-					price: 15,
-					imgUrl: 'static/imgs/hotRemmend/No_6.jpg'
-				},
-				{
-					id: '1007', 
-					name: '大明宫国家遗址公园', 
-					commentScore: 4.9, 
-					commentNum: 163062,
-					address: '未央区',
-					price: 82,
-					imgUrl: 'static/imgs/hotRemmend/No_7.jpg'
-				}
-
-			]
-		}
 	}
 }
 </script>

@@ -7,15 +7,20 @@
           <span class="iconfont iconsousuo"></span>
           输入城市/景点/游玩/主题
         </div>
-        <div class="header-right">
-          城市
-          <span class="iconfont iconsanjiaoxing header-right-triangle"></span>
-        </div>
+        <router-link to="/city">
+          <div class="header-right">
+            {{this.city}}
+            <span class="iconfont iconsanjiaoxing header-right-triangle"></span>
+          </div>
+        </router-link>
     </div>
 </template>
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  props: {
+    city: String
+  }
 }
 </script>
 
@@ -23,7 +28,7 @@ export default {
   @import '~styles/varibles.styl'
   .header
     display:flex
-    line-height:.86rem
+    line-height:$headerHeight
     background :$headerColor
     color:$white
     
@@ -47,6 +52,7 @@ export default {
       width:1.24rem
       float:right
       text-align:center
+      color: $white
       .header-right-triangle
         font-size:.06rem
 
